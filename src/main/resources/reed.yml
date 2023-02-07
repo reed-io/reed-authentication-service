@@ -1,0 +1,24 @@
+#eureka:
+#  instance: 
+#    lease-expiration-duration-in-seconds: 10
+#    lease-renewal-interval-in-seconds: 10
+#  client:
+#    registry-fetch-interval-seconds: 10
+#    service-url: 
+#      defaultZone: http://ip:port/eureka,
+#    fetch-registry: true
+#    register-with-eureka: true
+
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://39.97.169.32:33066/auth?useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: ender
+    password: ender
+
+    
+server: 
+  servlet: 
+    context-path: /reed-authentication-service
+    
